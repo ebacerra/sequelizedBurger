@@ -1,61 +1,55 @@
 body {
-    width: 100%;
-    background-image: url(../img/BG1.jpg);
-    background-position: center center;
-    background-repeat:  no-repeat;
-    background-attachment: fixed;
+  width: 100%;
+  background-image: url(../img/BG1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
 
 .top_row {
-    background-image: url(../img/food.png);
-    text-align: center;
-    padding: 20px;
+  background-image: url(../img/food.png);
+  text-align: center;
+  padding: 20px;
 }
 img {
-    position: relative;
+  position: relative;
 }
 
 h1 {
-    font-family: 'Ceviche One', cursive;
-    color: rgb(153, 25, 25);
-    
+  font-family: "Ceviche One", cursive;
+  color: rgb(153, 25, 25);
 }
 
 .middle_row {
-    background-image: url(../img/food.png);
-    padding: 34px;
+  background-image: url(../img/food.png);
+  padding: 34px;
 }
 
 .innerbox {
-    background-color: white;
-    padding-top: 17px;
-    margin: 20px;
-    width: 859px;
-    height: 368px
-
+  background-color: white;
+  padding-top: 17px;
+  margin: 20px;
+  width: 859px;
+  height: 368px;
 }
 
 .col2 {
-    
 }
 .col3 {
-    display: inline-block;
-    position: relative;
-    
-
+  display: inline-block;
+  position: relative;
 }
 .bottom_row {
-    align-content: center;
-    background-color: rgb(119, 194, 119);
-    padding: 10px; 
+  align-content: center;
+  background-color: rgb(119, 194, 119);
+  padding: 10px;
 }
 
 ul {
-    font-family: 'Poiret One', cursive;
+  font-family: "Kodchasan", cursive;
 }
-li{
-    font-family: 'Poiret One', cursive;
+li {
+  font-family: "Kodchasan", cursive;
 }
 
 /* footer {
@@ -71,118 +65,107 @@ li{
 
 }*/
 p {
-    font-family: 'Prompt', sans-serif;
+  font-family: "Prompt", sans-serif;
 }
 h5 {
-    font-family: 'Prompt', sans-serif;
+  font-family: "Prompt", sans-serif;
 }
-@media (max-width:979px){
-    body {
-        width: 100%;
-    }
-
-    .top_row{
-        width: 100%;
-    }
-
-    nav {
-      width: 100%;
-      display: flex;
-      position: relative;
-      right: 3%;
-    }
-    img {
-        width: 100%;
-    }
-    .middle_row {
-        width: 100%;
-       
-    }
-    
-    .innerbox {
-        width: 100%;
-       
-    }
-    .bottom_row {
-        width: 100%;
-       
-    }
-    footer {
-      width: 100%;
-    }
-
+@media (max-width: 979px) {
+  body {
+    width: 100%;
   }
-  @media (max-width:737px){
-    body {
-        width: 100%;
-    }
 
-    .top_row{
-        width: 100%;
-    }
-
-    nav {
-      width: 100%;
-      display: flex;
-      position: relative;
-      right: 3%;
-    }
-    img {
-        width: 100%;
-    }
-    .middle_row {
-        width: 100%;
-        
-    }
-    
-    .innerbox {
-        width: 100%;
-       
-    }
-    .bottom_row {
-        width: 100%;
-        
-    }
-    footer {
-      width: 100%;
-    }
-
+  .top_row {
+    width: 100%;
   }
-  @media (max-width:639px){
-    body {
-        width: 100%;
-    }
 
-    .top_row{
-        width: 100%;
-    }
-
-    nav {
-      width: 100%;
-      display: flex;
-      position: relative;
-      right: 3%;
-    }
-    img {
-        width: 100%;
-    }
-    .middle_row {
-        width: 100%;
-       
-    }
-    
-    .innerbox {
-        width: 100%;
-       
-    }
-    .bottom_row {
-        width: 100%;
-        align-content: center;
-        background-color: rgb(119, 194, 119);
-        padding: 10px; 
-    }
-    footer {
-      width: 100%;
-    }
-
+  nav {
+    width: 100%;
+    display: flex;
+    position: relative;
+    right: 3%;
   }
+  img {
+    width: 100%;
+  }
+  .middle_row {
+    width: 100%;
+  }
+
+  .innerbox {
+    width: 100%;
+  }
+  .bottom_row {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+}
+@media (max-width: 737px) {
+  body {
+    width: 100%;
+  }
+
+  .top_row {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    position: relative;
+    right: 3%;
+  }
+  img {
+    width: 100%;
+  }
+  .middle_row {
+    width: 100%;
+  }
+
+  .innerbox {
+    width: 100%;
+  }
+  .bottom_row {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+}
+@media (max-width: 639px) {
+  body {
+    width: 100%;
+  }
+
+  .top_row {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    position: relative;
+    right: 3%;
+  }
+  img {
+    width: 100%;
+  }
+  .middle_row {
+    width: 100%;
+  }
+
+  .innerbox {
+    width: 100%;
+  }
+  .bottom_row {
+    width: 100%;
+    align-content: center;
+    background-color: rgb(119, 194, 119);
+    padding: 10px;
+  }
+  footer {
+    width: 100%;
+  }
+}
