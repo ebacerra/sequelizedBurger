@@ -2,7 +2,7 @@ body {
   width: 100%;
   background-image: url(../img/BG1.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
   background-position: center;
 }
 
